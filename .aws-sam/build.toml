@@ -36,4 +36,13 @@ manifest_hash = "3298f13049d19cffaa37ca931dd4d421"
 packagetype = "Zip"
 functions = ["GetAllProductsFunction"]
 
+[function_build_definitions.e1d1ceff-9f97-49c5-b7fc-95a7595df8e9]
+codeuri = "C:\\Users\\ric_f\\Projetos\\ProjetoAWS\\alunos-api-aws\\getProductById"
+runtime = "python3.13"
+architecture = "x86_64"
+handler = "app.lambda_handler"
+manifest_hash = "3298f13049d19cffaa37ca931dd4d421"
+packagetype = "Zip"
+functions = ["GetProductByIdFunction"]
+
 [layer_build_definitions]
